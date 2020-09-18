@@ -49,12 +49,14 @@ export default class App extends Component {
     return (
       
       <div className='App'>
+      
+        <ErrorBoundary>
         
         <FoldersList stater={this.state} reUpdateState={this.reUpdateState} />
         
         <NotesList stater={this.state} reUpdateState={this.reUpdateState} />
         
-        <ErrorBoundary>
+       
         <Counter />
         </ErrorBoundary>
         
