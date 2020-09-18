@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Sub {
+  margin-left: 20px;
+}
